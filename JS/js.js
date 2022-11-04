@@ -102,7 +102,7 @@ else if (nota>=10)
 
 } */
 
-var key;
+/* var key;
 
 key=parseInt(prompt("Ingrese un numero del 1 al 7"));
 
@@ -133,4 +133,17 @@ switch (key) {
 
     default:
         break;
-}
+} */
+
+var nombre1 = prompt ("Digite tu primer apellido");
+var nombre2 = prompt ("Digite tu segundo apellido");
+let tam1=nombre1.length
+let tam2=nombre2.length
+
+if (tam1>tam2) 
+    document.writeln(`el  primer apellido ${nombre1}  tiene mas letras ${tam1} <br>`);
+
+else
+ document.writeln(`el  primer apellido ${nombre2}  tiene mas letras ${tam2}  <br>`);
+
+ 
